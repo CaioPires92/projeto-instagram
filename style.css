@@ -6,6 +6,7 @@
 
 body {
   font-family: 'Roboto', sans-serif;
+  overflow-x: hidden;
 }
 
 .left-arrow {
@@ -245,6 +246,64 @@ header.md {
   font-weight: 400;
   font-size: 11px;
   color: #c7c7c7;
+}
+
+.coments {
+  display: flex;
+  align-items: center;
+  padding: 10px 25px;
+}
+
+.create-coments {
+  padding: 0 25px;
+}
+
+.create-coments div {
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+}
+
+.create-coments input {
+  padding: 8px 0;
+  border: none;
+  outline: none;
+  width: 100%;
+}
+
+.create-coments button {
+  color: #b2dffc;
+  background: none;
+  outline: none;
+  border: none;
+  transform: 3s;
+  transition: color 300ms ease;
+}
+
+.create-coments button:hover {
+  color: #0095f6;
+}
+
+.create-coments p {
+  margin-top: 4px;
+}
+
+.coments img {
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  margin-right: 14px;
+}
+
+.coments p,
+.create-coments p {
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.coments span,
+.create-coments span {
+  font-weight: bold;
 }
 
 @media (min-width: 615px) {
